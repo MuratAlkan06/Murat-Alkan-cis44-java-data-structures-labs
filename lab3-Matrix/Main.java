@@ -9,6 +9,7 @@ public class Main {
         System.out.println("Matrix A:\n" + randomA);
         System.out.println("Matrix B:\n" + randomB);
 
+        
         Matrix sumAB = randomA.add(randomB);
         System.out.println("A + B = \n" + sumAB);
         
