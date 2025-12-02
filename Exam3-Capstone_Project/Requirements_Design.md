@@ -49,4 +49,7 @@ classDiagram
         -void moveToHead(CacheNode node)
         -void removeNode(CacheNode node)
         -void addNodeAtHead(CacheNode node)
-        -void evictLeastRec
+        -void evictLeastRecentlyUsed()
+    }
+
+    IntelligentCache "1" --> "*" CacheNode : maintains
