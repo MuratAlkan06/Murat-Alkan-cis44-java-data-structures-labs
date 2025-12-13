@@ -1,6 +1,7 @@
 public class Main {
 
     public static void main(String[] args) {
+        System.out.println("I didn't realize we didn't need a main in phase 3:)");
         testBasicInsertAndLookup();
         testEvictionOrder();
         testRecencyUpdateOnLookup();
